@@ -1,0 +1,9 @@
+---
+# bin destination directory
+vscode_bin: /usr/local/bin
+# release version 
+vscode_version: 1.1156-vsc1.33.1
+# source URL for the binary
+vscode_base_url: https://github.com/codercom/code-server/releases/download
+# prefix name for the vscode server tarball
+vscode_binary_prefix: code-server

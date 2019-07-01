@@ -1,0 +1,18 @@
+---
+- name: Download and unarchive vscode...
+  unarchive:
+    src: '{{ vscode_src }}'
+    dest: '{{ vscode_bin }}'
+    remote_src: yes
+    list_files: yes
+    mode: 0755
+
+- name: Create required directories
+  file:
+    path: '{{ item }}'
+    state: directory
+    mode: 0775
+  with_items:
+  - /data
+  - /code
+  - /extensions

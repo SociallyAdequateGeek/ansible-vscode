@@ -1,0 +1,4 @@
+---
+vscode_name: '{{ vscode_binary_prefix }}{{ vscode_version }}-{{ vscode_distro }}'
+vscode_src: '{{ vscode_base_url }}/{{ vscode_version }}/{{ vscode_name }}'
+
