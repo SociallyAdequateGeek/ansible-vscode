@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sociallyadequategeek/ansible-vscode.svg?branch=master)](https://travis-ci.org/sociallyadequategeek/ansible-vscode)
+
 sag.vscode
 =========
 
