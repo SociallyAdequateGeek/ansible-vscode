@@ -35,4 +35,4 @@ MIT
 Author Information
 ------------------
 
-SAG
+SAG (socially adequate geek)
